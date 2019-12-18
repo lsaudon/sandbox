@@ -1,0 +1,22 @@
+name: payment_app
+description: A new Flutter project.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg : ^0.15.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  pedantic: ^1.8.0+1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icons/
+    - assets/images/

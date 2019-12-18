@@ -1,0 +1,12 @@
+{
+  "files.exclude": {
+    "**/.dart_tool": true,
+    "**/build": true,
+    "**/.gitignore": true,
+    "**/.metadata": true,
+    "**/.packages": true,
+    "**/pubspec.lock": true,
+    "**/velib_app.iml": true,
+    "**/*.g.dart": true
+  }
+}
