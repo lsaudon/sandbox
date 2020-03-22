@@ -1,0 +1,23 @@
+name: draw_your_trip
+description: A new Flutter application.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_map: ^0.7.3
+  path_provider: ^1.5.1
+  json_annotation: ^3.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  json_serializable: ^3.2.3
+  build_runner: ^1.7.2
+
+flutter:
+  uses-material-design: true

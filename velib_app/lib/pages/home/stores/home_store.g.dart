@@ -95,7 +95,7 @@ mixin _$HomeStore on _HomeStore, Store {
   final _$getNetworkAsyncAction = AsyncAction('getNetwork');
 
   @override
-  Future getNetwork() {
+  Future<dynamic> getNetwork() {
     return _$getNetworkAsyncAction.run(() => super.getNetwork());
   }
 }

@@ -1,6 +1,5 @@
 import 'package:mobx/mobx.dart';
 import 'package:velib_app/services/bike_services/bike_service.dart';
-import 'package:velib_app/services/bike_services/dto/station.dart';
 
 part 'station_store.g.dart';
 
@@ -12,7 +11,7 @@ abstract class _StationStore with Store {
   _StationStore(this._bikeService);
 
   @observable
-  String stationName  = 'Nom de la station';
+  String stationName = 'Nom de la station';
 
   @action
   Future getStation(String id) async {

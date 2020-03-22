@@ -29,7 +29,7 @@ mixin _$StationStore on _StationStore, Store {
   final _$getStationAsyncAction = AsyncAction('getStation');
 
   @override
-  Future getStation(String id) {
+  Future<dynamic> getStation(String id) {
     return _$getStationAsyncAction.run(() => super.getStation(id));
   }
 }
